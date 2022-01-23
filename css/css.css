@@ -1,0 +1,108 @@
+body{
+	margin: 0px;
+	background-color: #fff5e6;
+}
+/*dashboard styling*/
+.navbar{
+	background-color:  #ffd699;
+	padding: 17px;
+	position: sticky;
+	top: 0;
+}
+a{
+	
+	text-decoration: none;
+	padding: 17px;
+	font-family: Helvetica;
+}
+.navbar a:hover{
+	background-color: #f2f2f2;
+}
+
+/*For All Buttons*/
+button{
+	border: none;
+	cursor: pointer;
+	float: right;
+	background-color: inherit;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+button:hover{
+	background-color: #e0e0eb;
+}
+
+/*Styling the pictures container*/
+.row{
+
+	padding: 0 12px;
+}
+.column{
+	width: 24.99999%;
+	float: left;
+	padding: 10px 10px;
+}
+.container{
+	padding: 0.01em 16px;
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*animating login form*/	
+.animate{
+	-webkit-animation:animatezoom 0.6s;
+	animation: animatezoom 0.6s;
+}
+@-webkit-keyframes animatezoom{
+	from{-webkit-transform:scale(0)}
+	to{-webkit-transform:scale(1)}
+	
+}
+@keyframes animatezoom{
+	from{transform: scale(0)}
+	to{transform: scale(1);}
+}
+fieldset{
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 50px;
+	text-align: center;
+	width: 40%;
+	background-color: #d1d1e0;
+	margin-bottom: 15px;
+}
+input[type=text],input[type=password]{
+	width: 50%;
+	padding: 20px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+/*Styling Some buttons with classes*/
+.lginbtn{
+	cursor: pointer;
+	color: white;
+	width: 90px;
+	height: 40px;
+	background-color: green; 
+}
+.btn{
+	background-color: red;
+	height: 40px;
+	width: 70px;
+	color: #f1f1f1;
+}
+/*Styling footer*/
+.footer{
+	position: sticky;
+	bottom: 0;
+	text-align: center;
+	background-color: #999900;
+}
+
+/*Styling Products Page*/
